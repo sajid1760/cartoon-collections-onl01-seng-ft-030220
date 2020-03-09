@@ -18,6 +18,7 @@ def long_planeteer_calls(longcalls)
     if call.length > 4 then
       bool = TRUE
     end
+  end
     bool
 end
 
