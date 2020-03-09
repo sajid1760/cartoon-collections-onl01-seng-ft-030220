@@ -8,7 +8,7 @@ end
 def summon_captain_planet(calls)
   collection = []
   calls.each do |call|
-    collection >> "#{call.capitalize}!"
+    collection.push("#{call.capitalize}!")
   end
   collection
 end
