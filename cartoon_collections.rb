@@ -1,7 +1,8 @@
 def roll_call_dwarves(list)
   c = 1
   list.each do |name|
-    puts "#{c}. #{name}\n"
+    puts "#{c}. #{name}"
+    c += 1 
   end
 end
 
