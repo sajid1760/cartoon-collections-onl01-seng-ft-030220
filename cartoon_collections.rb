@@ -9,10 +9,12 @@ def summon_captain_planet(calls)
   calls.each do |call|
     collection >> "#{call.capitalize}!"
   end
+  collection
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(longcalls)
+  longcalls.each do |call|
+    
 end
 
 def find_the_cheese# code an argument here
