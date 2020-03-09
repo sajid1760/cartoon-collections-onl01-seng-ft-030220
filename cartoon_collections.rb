@@ -1,9 +1,12 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(list)
+  list.each do |names|
+    puts names
+  end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(calls)
+  calls.each do |call|
+    collection.push()
 end
 
 def long_planeteer_calls# code an argument here
