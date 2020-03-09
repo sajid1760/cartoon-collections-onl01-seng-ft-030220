@@ -14,13 +14,13 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(longcalls)
+  boolers = FALSE
   longcalls.each do |call|
-    bool = FALSE
     if call.length > 4 then
-      bool = TRUE
+      boolers = TRUE
     end
   end
-    bool
+    boolers
 end
 
 def find_the_cheese(snacks)
